@@ -7,10 +7,22 @@ import {Employee} from '../employee'
 })
 export class EmployeeListComponent implements OnInit {
 
-  employees!: Employee[];
+  employees: Employee[] = [];
   constructor() { }
 
   ngOnInit(): void {
+    this.employees = [{
+      "id":1,
+      "firstName": "Radwan",
+      "lastName": "Romy",
+      "emailId": "radwanromy@outlook.com"
+    },
+  {
+    "id":2,
+      "firstName": "Ron",
+      "lastName": "Robart",
+      "emailId": "robatron@outlook.com"
+  }];
   }
 
 }

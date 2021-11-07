@@ -22,6 +22,12 @@ export class EmployeeListComponent implements OnInit {
       "firstName": "Ron",
       "lastName": "Robart",
       "emailId": "robatron@outlook.com"
+  },
+  {
+    "id":3,
+      "firstName": "Jem",
+      "lastName": "Robart",
+      "emailId": "robatjem@outlook.com"
   }];
   }
 

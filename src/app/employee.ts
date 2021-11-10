@@ -4,4 +4,3 @@ export class Employee {
     lastName: string;
     emailId: string;
 }
-
